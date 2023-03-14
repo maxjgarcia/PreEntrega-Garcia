@@ -1,0 +1,28 @@
+
+
+.subtitulo_recetas {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom:2rem;
+    color:rgba(0, 255, 119, 0.658);
+}
+.recetas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    div {
+        height: 300px;
+        width: 500px;
+
+        h3 {
+            color:rgba(0, 255, 119, 0.658);
+            font-size: 35px;
+        }
+        
+        li {
+            list-style: none;
+        }
+    }
+}

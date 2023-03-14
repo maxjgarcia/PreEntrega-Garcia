@@ -1,0 +1,102 @@
+body {
+    background-color: rgba(248, 248, 248, 0.842);
+}
+
+
+// main 
+.main_container{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border-radius: 30px;
+    background-color: rgba(169, 226, 226, 0.733);
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        
+        }
+    h2 {
+        font-size: 38px;      
+    }
+    img {
+        padding: 0px;
+        height: 300px;
+        width: 400px;
+        border-radius: 30px;
+                    
+    }
+
+}
+
+.main_container:hover {
+    transform: scale(0.98);
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px 1px rgba(169, 226, 226, 0.733);
+}
+
+.main_container_medio{
+    
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background-color: rgba(0, 255, 119, 0.226);
+    border-radius: 30px; 
+    div {
+        display: flex;  
+        align-items: center;  
+        justify-content: center;
+        text-align: center;
+        font-family: 'Raleway', sans-serif; ;
+        font-size: 20px;
+        
+        }
+    h2 {
+            font-size: 38px;      
+        }
+    img {
+        
+        margin-left: 360px;
+        height: 300px;
+        width: 400px;
+        border-radius: 30px;                               
+    }
+
+}
+
+.main_container_medio:hover {
+    transform: scale(0.98);
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+// footer
+footer {
+    background-color: rgba(114, 110, 110, 0.404);
+    margin-top: 50PX;
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    //position: fixed;
+}  
+.social_media_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+        li {
+            list-style: none;
+            margin: 10px;
+        };
+        img {
+            width: 50px;
+            height: 50px;
+        }
+} 
+
+h1 {
+    font-size: 54px;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    font-family: 'Raleway', sans-serif;
+}

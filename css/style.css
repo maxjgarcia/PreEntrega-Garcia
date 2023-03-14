@@ -1,0 +1,155 @@
+body {
+  background-color: rgba(248, 248, 248, 0.842);
+}
+
+.main_container {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border-radius: 30px;
+  background-color: rgba(169, 226, 226, 0.733);
+}
+.main_container div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+.main_container h2 {
+  font-size: 38px;
+}
+.main_container img {
+  padding: 0px;
+  height: 300px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.main_container:hover {
+  transform: scale(0.98);
+  border-radius: 30px;
+  box-shadow: 0px 0px 30px 1px rgba(169, 226, 226, 0.733);
+}
+
+.main_container_medio {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  background-color: rgba(0, 255, 119, 0.226);
+  border-radius: 30px;
+}
+.main_container_medio div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+.main_container_medio h2 {
+  font-size: 38px;
+}
+.main_container_medio img {
+  margin-left: 360px;
+  height: 300px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.main_container_medio:hover {
+  transform: scale(0.98);
+  border-radius: 30px;
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
+}
+
+footer {
+  background-color: rgba(114, 110, 110, 0.404);
+  margin-top: 50PX;
+  height: 60px;
+  width: 100%;
+  bottom: 0;
+}
+
+.social_media_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.social_media_icons li {
+  list-style: none;
+  margin: 10px;
+}
+.social_media_icons img {
+  width: 50px;
+  height: 50px;
+}
+
+h1 {
+  font-size: 54px;
+  text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+  font-family: "Raleway", sans-serif;
+}
+
+.tienda_p img {
+  height: 400px;
+  border: 1px solid black;
+}
+
+.scale {
+  transition: all 1s;
+}
+
+.scale:hover {
+  transform: scale(1.2);
+}
+
+.galeria img {
+  height: 300px;
+  width: 330px;
+  border: 1px solid black;
+  margin: 2em;
+}
+
+.subtitulo_recetas {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 2rem;
+  color: rgba(0, 255, 119, 0.658);
+}
+
+.recetas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.recetas div {
+  height: 300px;
+  width: 500px;
+}
+.recetas div h3 {
+  color: rgba(0, 255, 119, 0.658);
+  font-size: 35px;
+}
+.recetas div li {
+  list-style: none;
+}
+
+.contacto_curso {
+  text-align: center;
+}
+.contacto_curso p {
+  font-size: 20px;
+}
+.contacto_curso h2 {
+  padding-bottom: 2em;
+}
+.contacto_curso img {
+  height: 300px;
+  width: 500px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -50,10 +50,15 @@ body {
   font-size: 38px;
 }
 .main_container_medio img {
-  margin-left: 360px;
   height: 300px;
   width: 400px;
   border-radius: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .main_container_medio img {
+    margin-left: 360px;
+  }
 }
 
 .main_container_medio:hover {
